@@ -15,7 +15,7 @@ export default function FoodPage() {
 
   const handleAddToCart = () => {
     addToCart(food);
-    navigate('/cart');
+    //navigate('/cart');
   };
 
   useEffect(() => {
