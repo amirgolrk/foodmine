@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    align-content: space-between;
+    background-color: #E76262;
+}
+
+.childs {
+    display: flex;
+}
+
+.firstDiv {
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.firstDiv img {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.secondDiv{
+    flex-direction: row;
+    justify-content: space-between;
+    height: 9rem;
+    border-top: red solid 1px;
+    border-bottom: red solid 1px;
+    margin-block: 1rem;
+}
+
+.thirdDiv {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.firstChilds {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+.secondChilds {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.secondChilds div {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secondChilds :hover {
+    cursor: pointer;
+}
+
+.secondChilds img {
+    object-fit: cover;
+    height: 25px;
+    width: 25px;
+}
+
+.secondChilds img :hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+span {
+    margin-inline: 0.5rem;
+}
+
+.newsButton {
+    cursor: pointer;
+    background-color: violet;
+    align-self: center;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: large;
+    padding: 1rem;
+}
