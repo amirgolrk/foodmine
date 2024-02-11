@@ -69,6 +69,10 @@ export default function FoodPage() {
               </span>
             </div>
 
+            <div className={classes.description} >
+              {food.desc}
+            </div>
+
             <div className={classes.price}>
               <Price price={food.price} />
             </div>

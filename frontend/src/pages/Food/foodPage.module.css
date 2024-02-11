@@ -37,7 +37,7 @@
 
 .name {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .favorite {
@@ -97,4 +97,10 @@
 .container button:hover {
   opacity: 0.9;
   cursor: pointer;
+}
+
+.description {
+  padding: 0.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
 }

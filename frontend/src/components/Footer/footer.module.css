@@ -4,7 +4,7 @@
     margin-top: 1rem;
     padding-bottom: 1rem;
     align-content: space-between;
-    background-color: #E76262;
+    background-color: #E79898;
 }
 
 .childs {
@@ -25,7 +25,7 @@
 
 .secondDiv{
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 9rem;
     border-top: red solid 1px;
     border-bottom: red solid 1px;
@@ -80,11 +80,13 @@ span {
 
 .newsButton {
     cursor: pointer;
-    background-color: violet;
+    background-color: white;
     align-self: center;
     border: none;
     border-radius: 0.5rem;
-    color: white;
+    color: red;
     font-size: large;
     padding: 1rem;
+    word-break: keep-all;
+    width: 70%;
 }

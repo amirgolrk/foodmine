@@ -10,6 +10,7 @@ export const FoodSchema = new Schema(
     imageUrl: { type: String, required: true },
     origins: { type: [String], required: true },
     cookTime: { type: String, required: true },
+    desc: { type : String, required : true}
   },
   {
     toJSON: {
