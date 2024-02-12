@@ -27,9 +27,9 @@ export default function Footer() {
       <div className={`${classes.childs} ${classes.secondDiv}`}>
         <div className={`${classes.secondChilds}`}>
           <div>follow us !</div>
-          <a><div><img src="instagram.png" alt="instagram"/><span>instagram</span></div></a>
-          <a><div><img src="telegram.png" alt="telegram"/><span>telegram</span></div></a>
-          <a><div><img src="twitter.png" alt="twitter"/><span>telegram</span></div></a>
+          <a href="#"><div><img src="instagram.png" alt="instagram"/></div></a>
+          <a href="#"><div><img src="telegram.png" alt="telegram"/></div></a>
+          <a href="#"><div><img src="twitter.png" alt="twitter"/></div></a>
         </div>
         <div className={`${classes.secondChilds}`}>
             <div>contact us !</div>
